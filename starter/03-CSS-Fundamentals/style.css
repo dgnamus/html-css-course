@@ -65,3 +65,41 @@ li {
 .main-header {
   background-color: #f7f7f7;
 }
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid hsla(188, 77%, 25%, 0.887);
+  border-bottom: 5px solid hsla(188, 77%, 25%, 0.887);
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  /* color: red; */
+}
+
+/* Styling links */
+a:link {
+  color: hsla(188, 77%, 25%, 0.887);
+  text-decoration: none;
+}
+
+a:visited {
+  color: hsla(188, 77%, 25%, 0.687);
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: orangered;
+}
+
+a:active {
+  background-color: palevioletred;
+}
