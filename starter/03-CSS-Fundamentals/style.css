@@ -103,3 +103,21 @@ a:hover {
 a:active {
   background-color: palevioletred;
 }
+
+/* RESOLVING CONFLICTS */
+
+/* .copyright {
+  color: red;
+}
+
+#copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+} */
